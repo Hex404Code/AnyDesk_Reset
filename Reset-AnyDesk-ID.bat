@@ -1,4 +1,13 @@
 @ECHO OFF
+ECHO.
+ECHO H   H  EEEEE  X   X   CCCCC  OOO   DDDD   EEEEE
+ECHO H   H  E       X X   C      O   O  D   D  E
+ECHO HHHHH  EEEE     X    C      O   O  D   D  EEEE
+ECHO H   H  E       X X   C      O   O  D   D  E
+ECHO H   H  EEEEE  X   X   CCCCC  OOO   DDDD   EEEEE
+ECHO.
+
+@ECHO OFF
 SETLOCAL ENABLEDELAYEDEXPANSION
 
 TITLE Generate A New AnyDesk ID
@@ -132,4 +141,6 @@ ERASE /F /Q "%WinDir%\Temp\OSArch.txt" >NUL 2>&1
 @ECHO.
 @ECHO Done! New AnyDesk ID has been generated.
 TIMEOUT /T 2 /NOBREAK >NUL
+
 ENDLOCAL
+PAUSE
