@@ -17,4 +17,4 @@ This is a batch script for generating a new AnyDesk ID by disabling and resettin
 - Windows OS.
 
 ## License:
-- GPL-3.0 license
+- GNU General Public License v3.0
