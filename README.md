@@ -1,4 +1,4 @@
-# AnyDesk ID Generator Script
+# AnyDesk ID Reset Script
 
 This is a batch script for generating a new AnyDesk ID by disabling and resetting settings associated with AnyDesk, and then restarting it.
 
